@@ -1,4 +1,5 @@
 ActiveAdmin.register Organisation do
+  permit_params :name, :address, :city, :country
 
 
   # See permitted parameters documentation:
